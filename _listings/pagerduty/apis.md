@@ -5,10 +5,10 @@ description: See how PagerDuty Digital Operations Management Platform integrates
   data & human intelligence to improve visibility & agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: "19574"
+x-alexaRank: "18918"
 tags: Window
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/window/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
@@ -17,7 +17,7 @@ apis:
   description: List existing maintenance windows, optionally filtered by service and/or
     team, or whether they are from the past, present or future.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows
   tags: Maintenance Windows
   properties:
@@ -28,7 +28,7 @@ apis:
   description: Create a new maintenance window for the specified services. No new
     incidents will be created for a service that is in maintenance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows
   tags: Maintenance Windows
   properties:
@@ -38,7 +38,7 @@ apis:
   x-api-slug: pagerduty
   description: Get an existing maintenance window.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -50,7 +50,7 @@ apis:
     it if it's currently on-going. If the maintenance window has already ended it
     cannot be deleted.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -60,7 +60,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing maintenance window.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -71,13 +71,15 @@ apis:
   description: See how PagerDuty Digital Operations Management Platform integrates
     machine data & human intelligence to improve visibility & agility across organizations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Window
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/window/master/_listings/pagerduty/openapi.md
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -98,8 +100,12 @@ x-common:
   url: support@pagerduty.com
 - type: x-email
   url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing
