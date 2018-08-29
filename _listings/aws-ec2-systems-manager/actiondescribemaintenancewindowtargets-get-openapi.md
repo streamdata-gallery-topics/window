@@ -224,32 +224,6 @@ paths:
       - Window
       - Execution
       - Tasks
-  /?Action=DescribeMaintenanceWindows:
-    get:
-      summary: Describe Maintenance Windows
-      description: Retrieves the Maintenance Windows in an AWS account.
-      operationId: describeMaintenanceWindows
-      x-api-path-slug: actiondescribemaintenancewindows-get
-      parameters:
-      - in: query
-        name: Filters
-        description: Optional filters used to narrow down the scope of the returned
-          Maintenance Windows
-        type: string
-      - in: query
-        name: MaxResults
-        description: The maximum number of items to return for this call
-        type: string
-      - in: query
-        name: NextToken
-        description: The token for the next set of items to return
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Maintenance
-      - Windows
   /?Action=DescribeMaintenanceWindowTargets:
     get:
       summary: Describe Maintenance Window Targets
